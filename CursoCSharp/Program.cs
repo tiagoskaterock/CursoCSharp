@@ -13,6 +13,7 @@ namespace CursoCSharp {
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"If - Estruturas de Controle", EstruturaIf.Executar},
                 {"For - Estruturas de Controle", EstruturaFor.Executar},
+                {"While - Estruturas de Controle", EstruturaWhile.Executar},
             });
 
             central.SelecionarEExecutar();
