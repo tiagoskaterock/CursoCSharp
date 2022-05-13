@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="ClassesEMetodos\Membro.cs" />
+    <Compile Include="ClassesEMetodos\Pessoa.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaFor.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIf.cs" />
+    <Compile Include="Fundamentos\Comentarios.cs" />
+    <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

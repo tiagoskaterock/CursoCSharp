@@ -1,18 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CursoCSharp
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+using CursoCSharp.Fundamentos;
+using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.EstruturasDeControle;
 
-            Console.WriteLine("Hello fockers");
+namespace CursoCSharp {
+    class Program {
+        static void Main(string[] args) {
+            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+                {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
+                {"Comentários - Fundamentos", Comentarios.Executar},
+                {"If - Estruturas de Controle", EstruturaIf.Executar},
+                {"For - Estruturas de Controle", EstruturaFor.Executar},
+            });
 
+            central.SelecionarEExecutar();
         }
     }
 }
