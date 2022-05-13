@@ -57,6 +57,7 @@
     <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
     <Compile Include="EstruturasDeControle\UsandoBreak.cs" />
     <Compile Include="EstruturasDeControle\UsandoContinue.cs" />
+    <Compile Include="ExplorandoAPI\ArquivoEscrevendoDados.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\LendoDadosNoConsole.cs" />
     <Compile Include="Fundamentos\OperadorTernario.cs" />

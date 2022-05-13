@@ -5,6 +5,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.ExplorandoAPI;
 
 namespace CursoCSharp {
     class Program {
@@ -33,6 +34,9 @@ namespace CursoCSharp {
                 // COLEÇÕES
                 {"Array - Coleções", UsandoArray.Executar},
                 {"List - Coleções", UsandoList.Executar},
+
+                // EXPLORANDO API
+                {"Arquivo: Escrevendo Dados - Explorando API", ArquivoEscrevendoDados.Executar},
             });
 
             central.SelecionarEExecutar();
