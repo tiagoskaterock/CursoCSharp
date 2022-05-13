@@ -38,6 +38,7 @@ namespace CursoCSharp {
 
                 // OO
                 {"Herança- Orientação a Objetos", Heranca.Executar},
+                {"Construtor: Usando o this - Orientação a Objetos", ConstrutorThis.Executar},
 
                 // EXPLORANDO API
                 {"Arquivo: Escrevendo Dados - Explorando API", ArquivoEscrevendoDados.Executar},
