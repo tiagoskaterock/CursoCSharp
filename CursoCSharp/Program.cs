@@ -12,6 +12,7 @@ namespace CursoCSharp {
                 // FUNDAMENTOS
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
+                {"Lendo Dados no Console - Fundamentos", LendoDadosNoConsole.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
 
                 // ESTRUTURAS DE CONTROLE
