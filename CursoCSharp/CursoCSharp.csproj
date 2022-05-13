@@ -54,6 +54,7 @@
     <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
     <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
     <Compile Include="EstruturasDeControle\UsandoBreak.cs" />
+    <Compile Include="EstruturasDeControle\UsandoContinue.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Program.cs" />
