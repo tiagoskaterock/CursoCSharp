@@ -5,6 +5,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 using CursoCSharp.ExplorandoAPI;
 
 namespace CursoCSharp {
@@ -34,6 +35,9 @@ namespace CursoCSharp {
                 // COLEÇÕES
                 {"Array - Coleções", UsandoArray.Executar},
                 {"List - Coleções", UsandoList.Executar},
+
+                // OO
+                {"Herança- Orientação a Objetos", Heranca.Executar},
 
                 // EXPLORANDO API
                 {"Arquivo: Escrevendo Dados - Explorando API", ArquivoEscrevendoDados.Executar},
