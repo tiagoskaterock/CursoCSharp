@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.EstruturasDeControle
 {
-    class EstruturaIf
+    class EstruturaIfElseIf
     {
 
         public static void Executar()
         {
-            int idade = 19;
-            if (idade >= 18)
+            int idade = 29;
+            if (idade < 13)
             {
-                Console.WriteLine("Maior de Idade");
+                Console.WriteLine("Criança");
+            }
+            else if (idade < 18)
+            {
+                Console.WriteLine("Adolescente");
             }
             else
             {
-                Console.WriteLine("Menor de idade");
+                Console.WriteLine("Adulto");
             }
         }
 

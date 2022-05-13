@@ -48,6 +48,8 @@
     <Compile Include="ClassesEMetodos\Pessoa.cs" />
     <Compile Include="EstruturasDeControle\EstruturaFor.cs" />
     <Compile Include="EstruturasDeControle\EstruturaIf.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIfElse.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIfElseIf.cs" />
     <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
