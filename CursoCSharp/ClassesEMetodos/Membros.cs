@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos
 {    
 
-    public class Membro
+    public class Membros
     {
 
-        static void Executar()
+        public static void Executar()
         {
             Pessoa pessoa = new Pessoa();
 
