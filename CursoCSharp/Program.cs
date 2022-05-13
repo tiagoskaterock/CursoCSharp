@@ -9,8 +9,12 @@ namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+                // FUNDAMENTOS
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
+                {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
+
+                // ESTRUTURAS DE CONTROLE
                 {"If - Estruturas de Controle", EstruturaIf.Executar},
                 {"If Else - Estruturas de Controle", EstruturaIfElse.Executar},
                 {"If Else If - Estruturas de Controle", EstruturaIfElseIf.Executar},
