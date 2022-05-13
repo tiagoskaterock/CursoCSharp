@@ -37,13 +37,15 @@ namespace CursoCSharp.OO
             return VelocidadeAtual;
         }
 
-        public int Acelerar()
+        public virtual int Acelerar()
         {
+            Console.WriteLine("acelerar");
             return AlterarVelocidade(5);
         }
 
         public int Frear()
         {
+            Console.WriteLine("frear");
             return AlterarVelocidade(-5);
         }
     } // FIM DE CLASSE CARRO
@@ -64,6 +66,19 @@ namespace CursoCSharp.OO
         {
 
         }
+
+        public override int Acelerar()
+        {
+            Console.WriteLine("acelerar mais");
+            return AlterarVelocidade(15);
+        }
+
+        // OCULTA O MÉTODO DA CLASSE PAI
+        public new int Frear()
+        {
+            Console.WriteLine("frear mais");
+            return AlterarVelocidade(-30);
+        }
     }
 
 
@@ -81,7 +96,7 @@ namespace CursoCSharp.OO
 
 
             Console.WriteLine("Ferrari...");
-            Uno ferrari1 = new Uno();
+            Ferrari ferrari1 = new Ferrari();
             Console.WriteLine(ferrari1.Acelerar());
             Console.WriteLine(ferrari1.Acelerar());
             Console.WriteLine(ferrari1.Acelerar());
