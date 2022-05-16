@@ -74,6 +74,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TopicosAvancados\Linq1.cs" />
+    <Compile Include="TopicosAvancados\Linq2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,28 +4,28 @@ using System.Linq;
 
 namespace CursoCSharp.TopicosAvancados
 {
+    public class Aluno
+    {
+        public string Nome;
+        public int Idade;
+        public double Nota;
+    }   
+
     class Linq1
     {
-
-        public class Aluno
-        {
-            public string Nome;
-            public int Idade;
-            public double Nota;
-        }
 
         public static void Executar()
         {
             var alunos = new List<Aluno>
-            {
-                new Aluno() {Nome = "Pedro", Idade = 24, Nota = 8.0},
-                new Aluno() {Nome = "Andre", Idade = 22, Nota = 4.3},
-                new Aluno() {Nome = "Ana", Idade = 28, Nota = 9.8},
-                new Aluno() {Nome = "Jorge", Idade = 21, Nota = 7.9},
-                new Aluno() {Nome = "Maria", Idade = 22, Nota = 3.7},
-                new Aluno() {Nome = "Julia", Idade = 29, Nota = 8.1},
-                new Aluno() {Nome = "Marcia", Idade = 34, Nota = 10.0},
-            };
+        {
+            new Aluno() {Nome = "Pedro", Idade = 24, Nota = 8.0},
+            new Aluno() {Nome = "Andre", Idade = 22, Nota = 4.3},
+            new Aluno() {Nome = "Ana", Idade = 28, Nota = 9.8},
+            new Aluno() {Nome = "Jorge", Idade = 21, Nota = 7.9},
+            new Aluno() {Nome = "Maria", Idade = 22, Nota = 3.7},
+            new Aluno() {Nome = "Julia", Idade = 29, Nota = 8.1},
+            new Aluno() {Nome = "Marcia", Idade = 34, Nota = 10.0},
+        };
 
             Console.WriteLine("--- Aprovados ---");
             var aprovados = alunos.Where(a => a.Nota >= 7).OrderBy(a => a.Nome);
@@ -51,7 +51,7 @@ namespace CursoCSharp.TopicosAvancados
             }
 
             Console.WriteLine("--- Aprovados por Idade---");
-            var alunosAprovados = 
+            var alunosAprovados =
                 from aluno in alunos
                 where aluno.Nota >= 7
                 orderby aluno.Idade
