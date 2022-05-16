@@ -40,6 +40,7 @@ namespace CursoCSharp {
                 {"ArrayList - Coleções", ColecoesArrayList.Executar},
                 {"Set - Coleções", ColecoesSet.Executar},
                 {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Stack - Coleções", ColecoesStack.Executar},
 
                 // OO
                 {"Herança- Orientação a Objetos", Heranca.Executar},

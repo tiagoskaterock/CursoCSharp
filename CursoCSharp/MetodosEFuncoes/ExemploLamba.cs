@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace CursoCSharp.MetodosEFuncoes
 
         public static void Executar()
         {
-            
+
             Action algoNoConsole = () => {
                 Console.WriteLine("Lambda com C#");
             };
@@ -29,11 +29,11 @@ namespace CursoCSharp.MetodosEFuncoes
 
             System.Console.WriteLine(conversorHex(1234));
 
-            Func<int, int, int, string> formatarData = (dia, mes, ano) => 
-                String.Format("{0:D2}/{1:D2}/{2:D4}", dia, mes, ano); 
+            Func<int, int, int, string> formatarData = (dia, mes, ano) =>
+                String.Format("{0:D2}/{1:D2}/{2:D4}", dia, mes, ano);
 
             System.Console.WriteLine(formatarData(1, 1, 2019));
-            
+
         }
 
     }

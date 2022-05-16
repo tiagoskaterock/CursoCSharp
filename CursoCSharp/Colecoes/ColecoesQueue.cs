@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -33,15 +33,16 @@ namespace CursoCSharp.Colecoes
             fila.Enqueue("Valéria");
 
             Console.WriteLine(fila.Peek());
-            Console.WriteLine(fila.Count());
+            Console.WriteLine(fila.Count);
 
             fila.Dequeue();
 
             Console.WriteLine(fila.Peek());
-            Console.WriteLine(fila.Count());
+            Console.WriteLine(fila.Count);
 
-            foreach(var pessoa in fila) {
-                Console.WriteLine(pessoa);                
+            foreach (var pessoa in fila)
+            {
+                Console.WriteLine(pessoa);
             }
 
             var salada = new Queue();
