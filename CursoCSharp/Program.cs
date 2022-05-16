@@ -8,6 +8,7 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.ExplorandoAPI;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.TopicosAvancados;
 
 
 namespace CursoCSharp {
@@ -57,7 +58,10 @@ namespace CursoCSharp {
                 // EXPLORANDO API
                 {"Arquivo: Escrevendo Dados - Explorando API", ArquivoEscrevendoDados.Executar},
 
-                
+                // TÓPICOS AVANÇADOS
+                {"Linq 1 - Tópicos Avançados", Linq1.Executar},
+
+
 
             });
 
