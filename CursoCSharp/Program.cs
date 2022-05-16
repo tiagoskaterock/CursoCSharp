@@ -9,6 +9,7 @@ using CursoCSharp.OO;
 using CursoCSharp.ExplorandoAPI;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.TopicosAvancados;
+using CursoCSharp.Excecoes;
 
 
 namespace CursoCSharp {
@@ -52,8 +53,8 @@ namespace CursoCSharp {
                 {"Exemplo Lambda - Métodos e Funções", ExemploLambda.Executar},
                 {"Exemplo Lambda Delegate - Métodos e Funções", LambdaDelegate.Executar},
 
-                // EXCEÇÔES
-                // seção de exceções
+                // EXCEÇÔES                
+                {"Exceção 1 - Exceções", PrimeiraExcecao.Executar},
 
                 // EXPLORANDO API
                 {"Arquivo: Escrevendo Dados - Explorando API", ArquivoEscrevendoDados.Executar},
@@ -62,6 +63,7 @@ namespace CursoCSharp {
                 {"Linq 1 - Tópicos Avançados", Linq1.Executar},
                 {"Linq 2 - Tópicos Avançados", Linq2.Executar},
                 {"Nullables - Tópicos Avançados", Nullables.Executar},
+                {"Dynamic - Tópicos Avançados", Dynamic.Executar},
 
 
 
