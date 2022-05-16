@@ -39,6 +39,7 @@ namespace CursoCSharp {
                 {"List - Coleções", UsandoList.Executar},
                 {"ArrayList - Coleções", ColecoesArrayList.Executar},
                 {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
 
                 // OO
                 {"Herança- Orientação a Objetos", Heranca.Executar},
