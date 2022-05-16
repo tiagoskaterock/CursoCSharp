@@ -49,6 +49,7 @@ namespace CursoCSharp {
 
                 // MÉTODOS E FUNÇÕES
                 {"Exemplo Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Exemplo Lambda Delegate - Métodos e Funções", LambdaDelegate.Executar},
 
                 // EXCEÇÔES
                 // seção de exceções

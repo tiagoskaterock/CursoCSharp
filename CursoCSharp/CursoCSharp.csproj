@@ -68,6 +68,7 @@
     <Compile Include="Fundamentos\OperadorTernario.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="MetodosEFuncoes\ExemploLamba.cs" />
+    <Compile Include="MetodosEFuncoes\LambdaDelegate.cs" />
     <Compile Include="OO\ConstrutorThis.cs" />
     <Compile Include="OO\Heranca.cs" />
     <Compile Include="Program.cs" />
