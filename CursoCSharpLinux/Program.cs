@@ -34,6 +34,7 @@ namespace CursoCSharp {
 
                 // CLASSES E MÉTODOS
                 {"Membros: Atributos e Métodos - Classes e Métodos", Membros.Executar},
+                {"Construtores - Classes e Métodos", Construtores.Executar},
 
                 // COLEÇÕES
                 {"Array - Coleções", UsandoArray.Executar},
