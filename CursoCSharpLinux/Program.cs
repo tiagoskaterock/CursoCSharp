@@ -11,7 +11,6 @@ using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.TopicosAvancados;
 using CursoCSharp.Excecoes;
 
-
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
@@ -55,6 +54,7 @@ namespace CursoCSharp {
 
                 // EXCEÇÔES                
                 {"Exceção 1 - Exceções", PrimeiraExcecao.Executar},
+                {"Exceção 2 - Exceções", SegundaExcecao.Executar},
 
                 // EXPLORANDO API
                 {"Arquivo: Escrevendo Dados - Explorando API", ArquivoEscrevendoDados.Executar},
